@@ -30,7 +30,7 @@ sudo dnf install git mpg123 python3-pyudev
 # en tu terminal.
 cd && git clone https://github.com/hero-hz1999yt/soundy.git
 mv soundy/ .soundy/
-mv .soundy/soundy.desktop "/home/$USER/.config/autostart"
+mv .soundy/soundy.desktop /home/$USER/.config/autostart
 echo "Exec=python3 /home/$USER/.soundy/soundy.py" >> /home/$USER/.config/autostart/soundy.desktop
 ```
 
